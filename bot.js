@@ -3,7 +3,7 @@ var Events = Discordie.Events;
 var nagCheck = Math.random();
 var client = new Discordie();
 
-client.connect({ token: "Mzc1MTYyMjg3NTAzMTc5Nzc5.DNr9NA.yfcEIo_RIjtzoqjzu1t4PWPSPwk" });
+client.connect({ token: "this is why we can't have nice things, sey" });
 
 client.Dispatcher.on(Events.GATEWAY_READY, e => {
 console.log("Connected as: " + client.User.username);
